@@ -35,6 +35,11 @@ module.exports = {
         ],
         test: /\.css$/i,
       },
+      {
+        type: 'assets/resource',
+        use: 'asset/resource',
+        test: /\.(png|jpg|jpeg|gif|woff|woff2|tff|eot|svg)$/,
+      },
     ],
   },
   plugins: [
@@ -53,6 +58,11 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
   },
 };
 

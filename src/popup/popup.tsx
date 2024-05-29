@@ -12,6 +12,8 @@ const Test = () => {
         nulla eveniet sapiente placeat sed, maiores blanditiis dignissimos
         assumenda nobis enim?
       </p>
+      {/* <img src="/image" alt="sample image"/> */} //optimised image
+      importation with webpack
     </div>
   );
 };
