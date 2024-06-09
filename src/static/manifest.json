@@ -8,6 +8,9 @@
     "48": "icon.png",
     "128": "icon.png"
   },
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
   "action": {
     "default_title": "Click me",
     "default_popup": "popup.html"
